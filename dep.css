@@ -1,0 +1,165 @@
+th{
+	font-family: 'Poppins', sans-serif;	
+	color: rgb(255, 255, 255);
+
+}
+td{
+	font-family: 'Poppins', sans-serif;	
+	font-size: 14px;
+	color:rgb(5, 5, 5);
+}
+/* Navigation Style */
+.banner {
+	width: 100%;
+	height: 17vh;
+	background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.100)),url(background2.jpg);
+	background-position: center;
+}
+.navibar {
+
+	width: 100%;
+	margin: center;
+	display: flex;
+	padding: 30px 0;
+	text-align: center;
+	background: rgba(50, 50, 120, 0.9);
+	position: fixed;
+	justify-content: center;
+	z-index: 9999;
+}
+.logo {
+	float: left;
+	position:absolute;
+	top: 10px;
+	left: 50px;
+	width: 100px;
+	height: 100px;
+}
+.navibar ul li{
+
+	list-style: none;
+	object-position: center;
+	display: inline-block;
+	margin: 0 10px;
+	position: relative;
+}
+.navibar ul li a{
+
+	display: inline-block;
+	color: white;
+	margin: 0px;
+	padding: 5px 20px;
+	font-family: 'Squada One', cursive;
+	font-size: 25px;
+	text-decoration: none;
+}
+.navibar a{
+
+	background: none;
+}
+.navibar a:hover{
+
+	background:white;
+	color:black;
+	border-radius:10px;
+	transition: 0.5s;
+}
+.navibar ul li::after{
+
+	content: '';
+	height: 3px;
+	width: 0%;
+	position: absolute;
+	background: red;
+	left: 0;
+	bottom: -6px;
+	transition: 0.5s;
+}
+.navibar ul li:hover::after{
+
+	width: 100%;
+}
+/* button style */
+.back {   
+	background-color:#050505;
+	padding: 10px;   
+	cursor: pointer;   
+	border: none; 
+	border-radius: 10px;
+	width:60px;
+	color:white;
+}
+.submit {   
+	background-color:#050505;
+	padding: 10px;   
+	cursor: pointer;   
+	border: none; 
+	border-radius: 10px;
+	width:auto;
+	color:white;
+}
+.newDep{
+	width: auto;
+	height: auto;
+	background: #f7a609;
+	border-radius:10px;
+	padding: 3px;
+	padding-left: 4px;
+	padding-right: 4px;
+	font-family:'Montserrat';
+	font-size: small;
+}
+.edit{
+	background-color:#095e1c ;
+	width: 50px;
+	border-radius: 10px;
+	color:white;  
+}
+.delete{
+	background-color:#880707 ;
+	border-radius: 10px;
+	color:white; 
+}
+/* button hover */
+.submit:hover{
+	color: rgb(70, 64, 64);
+}
+.back a:hover{
+	color: rgb(70, 64, 64);
+}
+.newDep:hover{
+	background: rgb(70, 64, 64);
+	color: white;
+	transition: 0.5s;
+}
+.edit:hover{
+	background: rgb(10, 9, 9);
+	color: white;
+	transition: 0.5s;
+}
+.delete:hover{
+	background: rgb(0, 0, 0);
+	color: white;
+	transition: 0.5s;
+}
+.info{
+	border-radius: 50px;
+    background-color: #646670d4;
+    width: 30% ;
+    height: 400px;
+    text-align: center;
+    /* margin-left: auto;
+    margin-right: auto;   */
+	margin: auto;
+    padding-top: 5px;
+	margin-top: 50px;
+	color: whitesmoke;
+}
+input{
+	font-family: 'Poppins', sans-serif;	
+	font-size: 9px;
+	color: black;
+}
+.head{
+	color: whitesmoke;
+}

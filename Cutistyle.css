@@ -1,0 +1,118 @@
+
+button {
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #273269;
+    background: #273269;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #FDEDEC;
+    transition: ease-out 0.3s;
+}
+
+    button:hover {
+        background-color: white;
+        color: black;
+    }
+
+h0 {
+    color: black;
+    text-transform: uppercase;
+    font-size: 60px;
+    border: black;
+    border-width: 10px;
+    border-style: none;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 30x;
+    margin-bottom: 255px;
+}
+
+container {
+    text-align: center;
+    margin-top: 360px;
+}
+
+input {
+    align-self: center;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    font-size: 15;
+    text-align: center;
+    appearance: none;
+    background: rgba(212, 212, 255, 0.035);
+    border: 273269;
+    border-radius: 0;
+    color: inherit;
+    display: block;
+    outline: 0;
+    padding: 15;
+    margin: 20;
+    text-decoration: none;
+    width: 70%;
+}
+
+select {
+    align-self: center;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    font-size: 15;
+    text-align: center;
+    appearance: none;
+    background: rgba(212, 212, 255, 0.035);
+    border: 273269;
+    border-radius: 0;
+    color: inherit;
+    display: block;
+    outline: 0;
+    padding: 15;
+    margin: 20;
+    text-decoration: none;
+    width: 70%;
+}
+
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+    border-spacing: 25px;
+    padding: 4px 30px 4px 8px;
+    border: 1px solid #e3e3e3;
+}
+
+    table th {
+        border: 1px solid #e3e3e3;
+        color: #000000;
+        padding: 4px 30px 4px 8px;
+    }
+
+    table td {
+        border: 1px solid #e3e3e3;
+        padding: 4px 8px;
+    }
+.read{
+    background-color: lightgoldenrodyellow;
+}
+
+.bar {
+    width: 20%;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 5%;
+    width: 100%;
+    background-color: #f7a609;
+    color: black;
+    text-align: center;
+    letter-spacing: 3px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}

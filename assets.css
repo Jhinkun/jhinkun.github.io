@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document*/
+* {
+	
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+html
+{
+	scroll-behavior: smooth;
+}
+.form-group1,.form-group2,.form-group3,.form-group4,.form-group5,.form-group6
+{
+    font-family: "Montserrat";
+    margin-left:auto;
+    margin-right:auto;
+	text-align: center;
+}
+.container h1
+{
+    margin-top:40px;;
+	font-family: "Montserrat";
+    margin-left:auto;
+    margin-right:auto;
+	text-align: center;
+	-webkit-text-fill-color: rgb(50, 50, 120, 0.9);
+}
+.container2 
+{
+    background-color: white;
+	border: solid black 1px;
+	border-spacing: 20px;
+	border-radius: 5%;
+	font-family: 'Viga', sans-serif;
+}
+.btn-primary
+{
+   
+	background-color:rgb(37, 250, 0);
+	border-radius: 5px;
+	padding: 7px;
+	margin-left: 90%;
+    margin-bottom: 10px;
+	font-family: 'Montserrat', sans-serif;
+}
+.btn-primary:hover
+{
+	background-color:rgb(0, 116, 6);
+	color: white;
+}
+
+table
+{
+	background-color: white;
+	border: solid black 5px;
+	border-spacing: 35px;
+	border-radius: 5%;
+	font-family: 'Viga', sans-serif;
+    margin-left:auto;
+    margin-right:auto;
+	
+}
+.back {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	border-radius: 10px;
+	font-family:"Poppins", sans-serif;
+}
+.back:hover{
+	background-color: rgb(73, 73, 73);
+	color: white;
+	font-family:"Poppins", sans-serif;
+}
+.background
+{
+	height: 89.5vh;
+	background-color: #f2f2f2;
+	background-image: linear-gradient(rgb(255, 255, 255),rgba(255, 255, 255, 0.1)),url('images/building.png');
+}
+
+.container
+{
+	margin-top: 80px;
+}

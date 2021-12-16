@@ -1,0 +1,198 @@
+@charset "utf-8";
+/* CSS Document*/
+* {
+	
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+html{
+	scroll-behavior: smooth;
+}
+.banner {
+	
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(rgb(255, 255, 255),rgba(255, 255, 255, 0.63)),url('images/building.png');
+	background-size: cover;
+	background-position: center;
+}
+.navbar {
+	
+	width: 100%;
+	margin: center;
+	display: flex;
+	padding: 30px 0;
+	text-align: center;
+	background: rgb(50, 50, 120);
+	position: fixed;
+	justify-content: center;
+	z-index: 9999;
+}
+.logo {
+    float: left;
+    position:absolute;
+    top: 5px;
+    left: 50px;
+    width: 100px;
+    height: 100px;
+}
+.navbar ul li{
+	
+	list-style: none;
+	object-position: center;
+	display: inline-block;
+	margin: 0 10px;
+	position: relative;
+}
+.navbar ul li a{
+	
+	display: inline-block;
+	color: white;
+	margin: 7px;
+	padding: 5px 20px;
+	font-weight: bolder;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	text-decoration: none;
+}
+.navbar a{
+	
+	background: none;
+}
+.navbar a:hover{
+	
+	background:white;
+	color:black;
+	border-radius:10px;
+	transition: 0.5s;
+}
+.navbar ul li::after{
+	
+	content: '';
+	height: 3px;
+	width: 0%;
+	position: absolute;
+	background: red;
+	left: 0;
+	bottom: -2px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+	
+	width: 100%;
+}
+.welcome {
+
+	position: absolute;
+	top: 110px;
+	font-family:"Viga";
+	color: white;
+	background: rgba(50, 50, 120, 0.9);
+	-ms-scroll-limit:"5";
+	clip:"infinite;"
+}
+.socialmediacontact {
+
+	background:black;
+	width: 100%;
+	height: 150px;
+	text-align: center;
+	display: inline-block;
+}
+.yt,.fb,.ig {
+
+	display: inline-block;
+	text-align: center;
+	padding: 20px;
+	font-size: 50px;
+	color:white;
+}
+.youtube,.facebook,.instagram {
+
+	color:white;
+}
+.youtube:hover {
+
+	color:red;
+}
+.facebook:hover {
+    
+    color:blue;
+}
+.instagram:hover {
+
+	background: linear-gradient(45deg,yellow, red, purple,blue);
+	background-clip:unset;
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	
+}
+h1 {
+
+	color: white;
+	font-size: 30px;
+	font-family: "Viga";
+}
+h2 {
+
+	color: white;
+	font-size: 30px;
+	font-family: "Viga";
+}
+.contact {
+
+	background:black;
+	width: 100%;
+	height: 120px;
+	text-align: center;
+	display: inline-block;
+}
+.location {
+
+	background:black;
+	width: 100%;
+	height: 80px;
+	text-align: center;
+	display: inline-block;
+    color: white;
+}
+.email{
+
+	color:white;
+}
+.whatsapp,.address {
+	font-family:'Viga';
+}
+table{
+	background-color: white;
+	border: solid black 1px;
+	border-spacing: 20px;
+	border-radius: 5%;
+	font-family: 'Viga', sans-serif;
+	
+}
+.table{
+	position: absolute;
+	top: 25%;
+	left: 32%;
+}
+.container h1 {
+	position: absolute;
+	top: 25%;
+	left: 43%;
+	font-family: 'Montserrat';
+	-webkit-text-fill-color: rgb(50, 50, 120, 0.9);
+}
+.btn_submit {
+
+	background-color:rgb(255, 255, 255);
+	border-radius: 5px;
+	padding: 5px;
+	font-family: 'Montserrat';
+}
+.btn_submit:hover{
+	background-color:rgb(75, 75, 75);
+	color: white;
+
+}
